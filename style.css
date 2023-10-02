@@ -1,0 +1,302 @@
+/* // google fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Lora:wght@400;500&family=Noto+Sans+Bengali:wght@300;400;600&family=Nunito:wght@200;300;400;600&family=Rowdies&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    background-color: #152647;
+}
+
+.header {
+    /* background: url(images/web.jpg); */
+    background-image: linear-gradient(rgba(129, 51, 37, 0.1), rgba(129, 51, 37, 0.1)), url(images/web.jpg);
+
+    background-size: cover;
+    padding-top: -50px;
+    background-repeat: no-repeat;
+    height: 80vh;
+    padding-bottom: 50px;
+}
+
+/* about section start */
+.skill-hero h6 {
+    line-height: 1.8;
+}
+
+
+/* about section end */
+/* navbar section */
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: #fff !important;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 10px;
+}
+
+.navbar {
+    background-color: #f68e56;
+    height: 50px;
+}
+
+#tittle h1 {
+    position: relative;
+    font-weight: bold;
+    font-size: 4rem;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.sub h6 {
+    margin: 30px;
+    font-size: 20px;
+}
+
+.hr {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #f68e56;
+    width: 30%;
+    margin-left: 35%;
+}
+
+.col h4 {
+    color: #545454;
+    font-size: 45px;
+}
+
+.col p {
+    color: #505050;
+    text-align: justify;
+    line-height: 1.5;
+
+}
+
+#btn {
+    color: #505050;
+    padding: 5px;
+    font-size: 16px;
+    background: none;
+    border: 2px solid #7a7979;
+    border-radius: 5px;
+    width: 100%;
+    box-shadow: none;
+    transition: 0.3s linear;
+
+}
+
+#btn:hover {
+    background-color: #f68e56;
+    color: #ffff;
+}
+
+.icon i {
+    margin: 30px;
+    padding-top: 20px;
+    font-size: 40px;
+    transition: 0.2s linear;
+}
+
+.icon i:hover {
+
+    transform: scale(1.2);
+}
+
+/* *************************** skills section start******************************* */
+#skills {
+    background: url(images/skills.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 100px;
+    height: 100%;
+    width: 100%;
+}
+
+#circ-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 70px;
+}
+
+#be-align {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+#circ-cont h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ffff;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+/* *************************** skills section end******************************* */
+/* *************************** graphics  section start******************************* */
+
+#graphics-icon i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    border: 2px solid #f68e56;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+button {
+    color: #ffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-weight: 300;
+    background-color: #f68e56;
+    box-shadow: 1px 1px 5px #969696,
+        1px 1px 5px #8d8d8d,
+        1px 1px 2px #979797;
+}
+
+/* *************************** graphics  section end******************************* */
+/* *************************** portfolio  section start******************************* */
+#portfolio {
+    /* background:rgba(0,0,0,0.8) rgba(0,0,0,0.8),url(images/3409297.jpg); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/3409297.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding-bottom: 80px;
+}
+
+.portfolio {
+    background: none;
+}
+
+.portfolio h6 {
+    line-height: 1.8;
+}
+
+.duplicate {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.duplicate h2 {
+    display: flex;
+    margin: 15px;
+    font-size: 18px;
+}
+
+.duplicate a {
+    text-decoration: none;
+}
+
+#_hover {
+    color: #a8a6a6;
+    transition: 0.2s linear;
+}
+
+#_hover:hover {
+    color: #ffff;
+}
+
+/* *************************** portfolio  section end******************************* */
+/* *************************** blog section start******************************* */
+#blog img {
+    width: 550px;
+    height: 350px;
+    background-color: rgb(158, 236, 1);
+    border: 2px solid rgb(250, 250, 250);
+}
+
+/* *************************** blog section end******************************* */
+/* *************************** contact section start******************************* */
+
+#contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/contact.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin-top: 80px;
+}
+
+#_contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* *************************** contact section end******************************* */
+/* *************************** form control section start******************************* */
+
+#btn-button {
+    background-color: transparent;
+    border: 2px solid #ffff;
+    transition: 0.3s linear;
+    box-shadow: none;
+}
+
+#btn-button:hover {
+    color: #ffff;
+    background-color: #f68e56;
+    border: 2px solid #f68e56;
+}
+
+
+
+
+.form-control {
+
+
+    background: transparent !important;
+}
+
+.form-control:hover {
+    background-color: #152647;
+}
+
+input {
+    color: #ffffff !important;
+}
+
+textarea {
+    color: #ffff !important;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+    color: #ffff;
+}
+
+input[type="email"]::-webkit-input-placeholder {
+    color: #ffff;
+}
+
+textarea[class="form-control"]::-webkit-input-placeholder {
+    color: #ffff;
+}
+
+/* ********************** form control section ens******************************* */
+
+
+/* ********************* footer section end******************************* */
